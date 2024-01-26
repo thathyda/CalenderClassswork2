@@ -96,10 +96,14 @@ body{
 }
 .container > .date > .days > .times > .red {
     color: red;
+    border: 0.5px solid crimson;
+    border-radius: 20px;
 
 }
 .container > .date > .days > .header > .red {
-    color: red;
+    color: rgb(203, 11, 11);
+    border: solid crimson;
+    
 }
 .container > .date > .days > .times > .number:hover{
     box-shadow: 2px 2px 3px #000000;
